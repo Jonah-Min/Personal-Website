@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<htmll lang="en-US">
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="C:/Users/Jonah Min/Desktop/Python Projects/homepage/home.css">
+<script src="C:/Users/Jonah Min/Desktop/Python Projects/homepage/homescript.js"></script>
+
+<body>
+
+<div id="bg-img">
+</div>
+
+<div id="face-img">
+	<img src="C:/Users/Jonah Min/Desktop/Python Projects/homepage/face.jpg" width="200" height="200" id="face">
+</div>
+
+<div id="header">
+	<h1 id="name">Jonah Min</h1>
+</div>
+
+<div id="body" ng-app>
+	<nav class='{{category}}' ng-click="$event.preventDefault()">
+
+		<a href="#" class="button" ng-click="category='about me'">About Me</a>
+		<a href="#" class="button" ng-click="category='projects'">Projects</a>
+		<a href="#" class="button" ng-click="category='contact me'">Contact Me</a>
+
+	</nav>
+	<p ng-show='category'>{{category}}</p>
+
+</div>
+
+<div id="footer">
+	<p> hi </p>
+</div>
+
+</body>
+</html>
