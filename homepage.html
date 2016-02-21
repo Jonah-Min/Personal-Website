@@ -7,8 +7,7 @@
 
 <body>
 
-<div id="bg-img">
-</div>
+
 
 <div id="face-img">
 	<img src="C:/Users/Jonah Min/Desktop/Python Projects/homepage/face.jpg" width="200" height="200" id="face">
@@ -19,19 +18,26 @@
 </div>
 
 <div id="body" ng-app>
-	<nav class='{{category}}' ng-click="$event.preventDefault()">
 
-		<a href="#" class="button" ng-click="category='about me'">About Me</a>
-		<a href="#" class="button" ng-click="category='projects'">Projects</a>
-		<a href="#" class="button" ng-click="category='contact me'">Contact Me</a>
+	<div id="buttons" class='{{category}}' ng-click="$event.preventDefault()">
 
-	</nav>
-	<p ng-show='category'>{{category}}</p>
+		<button href="#" class="button" ng-click="category='about me'">About Me</button>
+		<button href="#" class="button" ng-click="category='projects'">Projects</button>
+		<button href="#" class="button" ng-click="category='resume'">Resume</button>
+		<button href="#" class="button" ng-click="category='contact me'">Contact Me</button>
+
+		<p ng-show='category'>{{category}}</p>
+
+	</div>
 
 </div>
 
 <div id="footer">
-	<p> hi </p>
+	
+	<div id="information">
+		<p class='footertxt'>I didn't know what to put in the footer... Hi there!!</p>
+	</div>
+
 </div>
 
 </body>
