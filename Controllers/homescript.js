@@ -15,7 +15,7 @@ HomeApp.config(function($routeProvider) {
 		})
 
 		.when('/About', {
-			templateUrl : 'Pages/about.html'
+			templateUrl : 'Pages/about.html',
 			controller : 'AboutController'
 		})
 
