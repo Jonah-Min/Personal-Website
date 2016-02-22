@@ -2,44 +2,46 @@
 <htmll lang="en-US">
 
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<link rel="stylesheet" type="text/css" href="C:/Users/Jonah Min/Desktop/Python Projects/homepage/home.css">
-<script src="C:/Users/Jonah Min/Desktop/Python Projects/homepage/homescript.js"></script>
+<link rel="stylesheet" type="text/css" href="Style/home.css">
+<script src="Controllers/homescript.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-<body>
+<body  ng-app='homeApp'>
 
+	<div id="face-img">
+		<img src="Images/face.jpg" width="200" height="200" id="face">
+	</div>
 
+	<div id="header">
+		<h1 id="name">Jonah Min</h1>
+	</div>
 
-<div id="face-img">
-	<img src="C:/Users/Jonah Min/Desktop/Python Projects/homepage/face.jpg" width="200" height="200" id="face">
-</div>
+	<div id="body">
 
-<div id="header">
-	<h1 id="name">Jonah Min</h1>
-</div>
+		<div id="buttons">
 
-<div id="body" ng-app>
+			<a href="#"><button class="button">About Me</button></a>
+			<a href="#Projects"><button class="button">Projects</button></a>
+			<a href="#Resume"><button class="button">Resume</button></a>
+			<a href="#Contact"><button class="button">Contact Me</button></a>
 
-	<div id="buttons" class='{{category}}' ng-click="$event.preventDefault()">
+		</div>
 
-		<button href="#" class="button" ng-click="category='about me'">About Me</button>
-		<button href="#" class="button" ng-click="category='projects'">Projects</button>
-		<button href="#" class="button" ng-click="category='resume'">Resume</button>
-		<button href="#" class="button" ng-click="category='contact me'">Contact Me</button>
+		<div id="information">
 
-		<p ng-show='category'>{{category}}</p>
+			<div ng-view></div>
+
+		</div>
 
 	</div>
 
-</div>
-
-<div id="footer">
+	<div id="footer">
 	
-	<div id="information">
-		<p class='footertxt'>I didn't know what to put in the footer... Hi there!!</p>
-	</div>
+		<div id="information">
+			<p class='footertxt'>I didn't know what to put in the footer... Hi there!!</p>
+		</div>
 
-</div>
+	</div>
 
 </body>
 </html>
