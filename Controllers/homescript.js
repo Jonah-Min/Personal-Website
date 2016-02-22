@@ -1,6 +1,10 @@
-var homeApp = angular.module('homeApp', ['ngRoute']);
+var homeApp = angular.module('homeApplication', ['ngRoute']);
 
-homeApp.config(function($routeProvider)) {
+homeApp.controller('HomeController', function($scope) {
+	$scope.message = "hi";
+});
+
+homeApp.config(function($routeProvider) {
 
 	$routeProvider
 
@@ -19,6 +23,6 @@ homeApp.config(function($routeProvider)) {
 
 		.when('/Resume' {
 			templateUrl : 'resume.html',
-		})
+		});
 
-}
+});
