@@ -34,9 +34,9 @@ body {
 
 #name {
 	display: inline-block;
-	font-size: 40pt;
+	font-size: 45pt;
 	color: white;
-	font-family: Lato;
+	font-family: 'Dancing Script', cursive;
 	font-style: normal;
 	margin-top: 18px;
 }

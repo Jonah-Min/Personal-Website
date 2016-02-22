@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <htmll lang="en-US">
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-route.js"></script>
-<link rel="stylesheet" type="text/css" href="Style/home.css">
+<script src="Scripts/angular.js"></script>
+<script src="Scripts/angular-route.js"></script>
 <script src="Controllers/homescript.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-<body ng-app>
+<link rel="stylesheet" type="text/css" href="Style/home.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+
+<body ng-app='HomeApp'>
 
 	<div id="face-img">
 		<img src="Images/face.jpg" width="200" height="200" id="face">
@@ -21,7 +23,7 @@
 
 		<div id="buttons">
 
-			<a href="#"><button class="button">About Me</button></a>
+			<a href="#About"><button class="button">About Me</button></a>
 			<a href="#Projects"><button class="button">Projects</button></a>
 			<a href="#Resume"><button class="button">Resume</button></a>
 			<a href="#Contact"><button class="button">Contact Me</button></a>
