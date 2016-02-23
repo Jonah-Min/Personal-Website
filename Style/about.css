@@ -7,11 +7,12 @@ h1 {
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
 	font-size: 50pt;
+	color: #282e29;
 }
 
 #face2 {
 	border-radius: 50%;
-	border: 7px solid #e0e3e0;
+	border: 7px solid #475148;
 }
 
 #image1 {
@@ -28,7 +29,7 @@ h1 {
 	vertical-align: middle;
 	font-size: 18pt;
 	font-family: 'Slabo 27px', serif;
-	color: #e0e3e0;
+	color: #282e29;
 	text-align: left;
 }
 
@@ -44,7 +45,7 @@ h1 {
 #firstblock {
 	width: 100%;
 	height: 400px;
-	background-color: #475148;
+	background-color: #e0e3e0
 	vertical-align: middle;
 }
 
@@ -86,7 +87,7 @@ h1 {
 	display: inline-block;
 	width: 100%;
 	height: 400px;
-	background-color: #e0e3e0;
+	background-color: #677077;
 }
 
 #image3 {
@@ -95,7 +96,7 @@ h1 {
 	vertical-align: middle;
 	margin-left: 150px;
 	margin-top: 50px;
-	border: 7px solid #475148;
+	border: 7px solid #e0e3e0;
 }
 
 #text3box {
@@ -113,6 +114,6 @@ h1 {
 	font-size: 18pt;
 	font-family: 'Slabo 27px', serif;
 	text-align: left;
-	color: #282e29;
+	color: #e0e3e0;
 }
-*/
+

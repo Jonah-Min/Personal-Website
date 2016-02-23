@@ -1,0 +1,80 @@
+h1 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50pt;
+	color: #282e29;
+}
+
+#match-history {
+	width: 100%;
+	height: 100%;
+}
+
+.image {
+	width: 100%;
+	height: 300px;
+}
+
+#screenshot {
+	border: 5px solid #475148;
+}
+
+.titlediv {
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.title {
+	color: #282e29;
+	margin-left: 15px;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 20pt;
+}
+
+.descdiv {
+	width: 50%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.desc {
+	color: #282e29;
+	margin-left: 15px;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 14pt;	
+}
+
+.links {
+	width: 50%;
+	height: 75px;
+	margin-right: auto;
+	margin-left: auto;	
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14pt;
+	margin-top: 10px;
+}
+
+.github {
+	text-decoration: none;
+	color: #3fb0ac;
+	text-align: center;
+}
+
+.github:hover {
+	color: #475148;
+}
+
+#more {
+	width: 100%;
+	height: 20px;
+	margin-bottom: 40px;
+}
+
+#moretocome {
+	font-size: 16pt;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	color: #282e29;	
+}
