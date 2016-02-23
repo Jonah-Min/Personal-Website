@@ -13,7 +13,7 @@ h1 {
 .link {
 	text-decoration: none;
 	font-family: 'PT Sans', sans-serif;
-	font-size: 18pt;
+	font-size: 16pt;
 	color: #3fb0ac;	
 }
 
@@ -22,7 +22,7 @@ h1 {
 }
 
 .info {
-	font-size: 18pt;
+	font-size: 16pt;
 	font-family: 'PT Sans', sans-serif;
 	color: #282e29;
 }
