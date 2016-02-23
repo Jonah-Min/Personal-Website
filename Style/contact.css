@@ -9,3 +9,20 @@ h1 {
 	font-size: 50pt;
 	color: #282e29;
 }
+
+.link {
+	text-decoration: none;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18pt;
+	color: #3fb0ac;	
+}
+
+.link:hover {
+	color: #475148;
+}
+
+.info {
+	font-size: 18pt;
+	font-family: 'PT Sans', sans-serif;
+	color: #282e29;
+}
