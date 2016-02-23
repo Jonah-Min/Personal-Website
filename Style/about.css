@@ -1,23 +1,118 @@
+body {
+	height: 100%;
+	min-height: 100%;
+}
+
 h1 {
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
-	font-size: 30pt;
+	font-size: 50pt;
 }
 
 #face2 {
-	display: inline-block;
 	border-radius: 50%;
-	border: 7px solid #2a2a2a;
-	vertical-align: center;
+	border: 7px solid #e0e3e0;
 }
 
-#introduction {
-	height: 400px;
-	width: 100%;
-}
-
-#introText {
+#image1 {
+	vertical-align: middle;
+	display: inline-block;
 	float: left;
-	width: 600px;
-	height: 400px;
+	height: 300px;
+	margin-left: 0px;
+	margin-top: 40px;
 }
+
+#text1 {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18pt;
+	font-family: 'Slabo 27px', serif;
+	color: #e0e3e0;
+	text-align: left;
+}
+
+#text1box {
+	display: inline-block;
+	vertical-align: middle;
+	height: 400px;
+	width: 50%;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+#firstblock {
+	width: 100%;
+	height: 400px;
+	background-color: #475148;
+	vertical-align: middle;
+}
+
+#secondblock {
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+	background-color: #6d97a8;
+}
+
+#image2 {
+	float: right;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 150px;
+	margin-top: 50px;
+	border: 7px solid #f6f1ed;
+}
+
+#text2box {
+	display: inline-block;
+	vertical-align: middle;
+	height: 400px;
+	width: 50%;
+	margin-left: 100px;
+	margin-top: 135px;
+}
+
+#text2 {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18pt;
+	font-family: 'Slabo 27px', serif;
+	color: #e3e3e3;
+	text-align: left;
+}
+
+ #thirdblock {
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+	background-color: #e0e3e0;
+}
+
+#image3 {
+	float: left;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-left: 150px;
+	margin-top: 50px;
+	border: 7px solid #475148;
+}
+
+#text3box {
+	display: inline-block;
+	vertical-align: middle;
+	height: 400px;
+	width: 50%;
+	margin-left: -30px;
+}
+
+#text3 {
+	margin-top: 135px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18pt;
+	font-family: 'Slabo 27px', serif;
+	text-align: left;
+	color: #282e29;
+}
+*/
