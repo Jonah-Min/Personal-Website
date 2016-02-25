@@ -26,3 +26,7 @@ h1 {
 	font-family: 'PT Sans', sans-serif;
 	color: #282e29;
 }
+
+.underline {
+	text-decoration: underline;
+}
