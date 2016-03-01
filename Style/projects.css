@@ -15,7 +15,7 @@ h1 {
 	height: 300px;
 }
 
-#screenshot {
+.screenshot {
 	border: 5px solid #475148;
 }
 
@@ -53,7 +53,7 @@ h1 {
 	margin-left: auto;	
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14pt;
-	margin-top: 10px;
+	margin-top: -20px;
 }
 
 .github {

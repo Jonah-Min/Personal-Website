@@ -32,7 +32,7 @@ html {
 }
 
 #header {
-	background-color: #2a2a2a;
+	background-color: #2f2f2f;
 	width: 100%;
 	height: 100px;
 	margin-top: 110px;
@@ -70,12 +70,17 @@ html {
 	float: left;
 }
 
-.button:hover:not(.active) {
-	color: white;
+.button {  
+    color:#000;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
 }
 
-.button:focus {
-	color: white;
+.button:hover { 
+	background-color: #d1d1d1; color:#000;  
 }
 
 #buttonlist {
@@ -83,7 +88,7 @@ html {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #8abdc7;
+	background-color: #529cab;
 }
 
 #footer {
