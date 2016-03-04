@@ -21,6 +21,21 @@ h1 {
     -ms-animation: fadein 1s; /* Internet Explorer */
     -o-animation: fadein 1s; /* Opera < 12.1 */
     animation: fadein 1s;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconinfo {
+    height: 100px;
+    width: 500px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
 }
 
 .link {
@@ -35,9 +50,14 @@ h1 {
 }
 
 .info {
+    display: inline-block;
+    vertical-align: middle;
 	font-size: 16pt;
 	font-family: 'PT Sans', sans-serif;
 	color: #282e29;
+    margin-top: 35px;
+    float: left;
+    margin-left: 20px;
 }
 
 .underline {
@@ -71,4 +91,13 @@ h1 {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.disclaimer {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12pt;
+}
+
+#disc {
+    margin-top: 20px;
 }

@@ -49,7 +49,7 @@ h1 {
 }
 
 .info {
-	width: 50%;
+	width: 60%;
 	height: 150px;
 	margin-top: 10px;
 	margin-left: auto;
@@ -87,7 +87,7 @@ h1 {
 }
 
 .tech {
-	width: 50%;
+	width: 60%;
 	height: 75px;
 	margin-top: 10px;
 	margin-left: auto;
@@ -113,6 +113,7 @@ h1 {
 
 ul li.tasks {
 	float: left;
+	text-align: left;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 12pt;
 	color: #282e29;
@@ -145,4 +146,14 @@ ul li.tasks {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.disclaimer {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	margin-bottom: 20px;
+}
+
+#disc {
+	margin-bottom: 10px;
 }
